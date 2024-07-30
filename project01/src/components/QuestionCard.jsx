@@ -82,7 +82,7 @@ function QuestionCard(props){
     }
 
     if (error){
-        return <div>Something Wen't Worng<br>or Contact Vivek Yadav to active on backend</div>
+        return <div>Something Wen't Worng<br/>or Contact Vivek Yadav to active on backend</div>
     }
     
 
