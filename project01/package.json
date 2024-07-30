@@ -9,6 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "proxy": "http://api-backend-quiz-project04.apps.ap46r.prod.ole.redhat.com",
   "dependencies": {
     "axios": "^1.7.2",
     "react": "^18.3.1",
