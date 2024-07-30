@@ -27,7 +27,7 @@ function QuestionCard(props){
             try {
                 setLoading(true)
                 setError(false);
-                const response = await axios.get('/api/questions');
+                const response = await axios.get('http://api-backend-quiz-project04.apps.ap46r.prod.ole.redhat.com//api/questions');
                 const responseData = response.data;
                 setResArry(responseData.length)
                 console.log(response.data[0]);
