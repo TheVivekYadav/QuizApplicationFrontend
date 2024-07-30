@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "http://api-backend-quiz-project04.apps.ap46r.prod.ole.redhat.com/api/$1"
+    }
+  ]
+}
