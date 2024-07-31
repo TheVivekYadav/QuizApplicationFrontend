@@ -3,6 +3,7 @@ import './QuestionCardCss.css'
 import Button from "./Button";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Loading from "./Loading";
 
 
 function QuestionCard(props){
@@ -78,7 +79,7 @@ function QuestionCard(props){
 
 
     if (loading){
-        return <div>Loading...</div>
+        return <Loading/>
     }
 
     if (error){
