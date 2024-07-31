@@ -11,6 +11,7 @@
   },
   "proxy": "http://api-backend-quiz-project04.apps.ap46r.prod.ole.redhat.com",
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "axios": "^1.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
